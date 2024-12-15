@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("image.jpg"); /* Local image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.front-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure the page takes full height */
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  color: WHite;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 48px;
+  color: WHite;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.get-start-button {
+  background-color: #4285f4;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-start-button:hover {
+  background-color: #357ae8;
+}
